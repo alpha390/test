@@ -1,0 +1,29 @@
+.btn{
+    font-size: 50px;
+    border-radius: 10px;
+    background-color: pink;
+    border-width: 5px;
+    border-color: palevioletred;
+    color: palevioletred;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    top: 55%;
+    left: 40%;
+
+     transition-property: transform ;
+     transition-duration: 0.3s ;
+     transition-timing-function: ease ;
+     transition-delay: 0s ;
+}
+
+.hello{
+    font-size: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: pink;
+    color: palevioletred;
+}
+    
+
+.btn:hover{
+    transform: translateY(10px);
+}
